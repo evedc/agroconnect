@@ -59,8 +59,7 @@ header {
 }
 
 .container-header {
-    width: 40%;
-    color: #ffffff;
+    width: 35%;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -75,13 +74,14 @@ h2 {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: #F7C35F;
 }
 
 h3 {
     margin-top: 0;
-    font-size: 3rem;
+    font-size: 3.5rem;
+    color: #ffffff;
 }
 
 p {
