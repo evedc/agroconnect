@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -32,6 +33,7 @@ nav {
     justify-content: center;
     width: 70%;
 }
+
 .links-container a {
     display: flex;
     width: 10%;
@@ -43,7 +45,7 @@ nav {
 }
 
 .links-container a:hover {
-    text-decoration:underline #F7C35F;
+    text-decoration: underline #F7C35F;
 }
 
 header {
@@ -54,4 +56,51 @@ header {
     justify-content: center;
     height: 100vh;
     width: 100%;
+}
+
+.container-header {
+    width: 40%;
+    color: #ffffff;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: absolute;
+    left: 10%;
+    top: auto;
+
+}
+
+h2 {
+    font-size: 1.4rem;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #F7C35F;
+}
+
+h3 {
+    margin-top: 0;
+    font-size: 3rem;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+}
+
+.btn-discover {
+    width: 200px;
+    height: 6vh;
+    border: none;
+    margin-top: 3%;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #000000;
+    background-color: #F7C35F;
+}
+
+.btn-discover:HOVER {
+    opacity: 0.93;
+    cursor: pointer;
 }
