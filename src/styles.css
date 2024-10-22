@@ -146,7 +146,6 @@ p {
 }
 
 .box-info h3 {
-    text-transform: uppercase;
     font-size: 20px;
     font-weight: 300;
 }
@@ -169,4 +168,35 @@ p {
     font-weight: 300;
     margin-top: 2%;
 
+}
+
+.check-list {
+
+    display: flex;
+    width: 100%;
+    height: 40%;
+    margin-top: 3%;
+    flex-direction: column;
+}
+
+.check-box {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    position: relative;
+}
+
+.check-list img {
+    display: flex;
+    justify-content: center;
+    z-index: 4;
+    /* Certifique-se que a imagem tenha um z-index maior */
+    position: relative;
+    /* Necessário para respeitar o z-index */
+}
+
+.check-box h3 {
+    font-size: 16px;
+    margin-left: 10px;
+    font-weight: 400;
 }
