@@ -200,3 +200,26 @@ p {
     margin-left: 10px;
     font-weight: 400;
 }
+
+.foods {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #334B35;
+    flex-direction: column;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.title2 {
+    color: #F7C35F;
+    font-size: 50px;
+    text-align: center;
+}
