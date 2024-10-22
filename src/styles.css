@@ -142,9 +142,23 @@ p {
 .box-info h3 {
     text-transform: uppercase;
     font-size: 20px;
+    font-weight: 300;
 }
 
 .box-info h1 {
     font-family: "Livvic", sans-serif;
     font-size: 50px;
+    color: #ffffff;
+}
+
+.box-info h4 {
+    margin-top: 2%;
+    color: #F7C35F;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.box-info p {
+    color: #ffffff;
+    font-weight: 300;
 }
