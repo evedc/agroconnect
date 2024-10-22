@@ -128,14 +128,20 @@ p {
 }
 
 .box-img img {
-    width: 300px;
+    width: 500px;
     overflow: hidden;
     border-radius: 10px;
 }
 
+.box {
+    width: 20px;
+    margin-top: 15%;
+    height: 200px;
+    background-color: #F7C35F;
+}
+
 .box-info {
     width: 40%;
-    border: 2px solid blue;
     margin-top: 5%;
 }
 
@@ -161,4 +167,6 @@ p {
 .box-info p {
     color: #ffffff;
     font-weight: 300;
+    margin-top: 2%;
+
 }
