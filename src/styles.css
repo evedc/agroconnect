@@ -525,5 +525,67 @@ p {
     gap: 20px;
     justify-content: center;
     align-content: center;
+    margin-bottom: 5%;
+}
 
+.projects-container {
+    background-color: #334B35;
+    background-image: url(./images/back3.png);
+    background-repeat: no-repeat;
+}
+
+.title-ntc2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-ntc2 h3 {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.title-ntc2 h2 {
+    font-size: 50px;
+    color: #ffffff;
+    font-family: "Livvic", serif;
+    font-weight: 500;
+}
+
+.card-list .card-item {
+    list-style: none;
+}
+
+.card-list .card-item .card-link {
+    width: 314px;
+    height: 350px;
+    display: block;
+    border-radius: 12px;
+    text-decoration: none;
+    overflow: hidden;
+    box-sizing: 0 10px 10px rgba(0, 0, 0, 0.05);
+    transition: 0.1s ease;
+}
+
+.card-list .card-item .card-link:hover {
+    border: 2px solid #F7C35F;
+}
+
+.card-image {
+    width: 100%;
+    object-fit: contain;
+
+}
+
+.card-list .card-link {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card-list .card-link .badge {
+    color: #F7C35F;
+    background-color: #6D8C54;
 }
