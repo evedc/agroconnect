@@ -530,9 +530,16 @@ p {
 
 
 .projects-container {
+    width: 100%;
+    height: 80vh;
     background-color: #334B35;
     background-image: url(./images/back3.png);
+    background-position: bottom;
     background-repeat: no-repeat;
+}
+
+.card-wrapper {
+    margin-top: 5%;
 }
 
 .title-ntc2 {
@@ -545,6 +552,7 @@ p {
 .title-ntc2 h3 {
     font-size: 20px;
     font-weight: 200;
+    margin-top: 4%;
 }
 
 .title-ntc2 h2 {
@@ -577,12 +585,12 @@ p {
     width: auto;
     object-fit: contain;
     border: 1px solid red;
-
 }
+
 
 .swiper {
     width: 90%;
-    height: 300px;
+    height: auto;
 }
 
 .card-list .card-link {

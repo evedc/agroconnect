@@ -9,15 +9,15 @@ new Swiper('.card-wrapper', {
 
     breakpoints: {
         0: {
-            slidesPerView: 1  // Corrigido para 'slidesPerView'
+            slidesPerView: 1
         },
 
         768: {
-            slidesPerView: 2  // Corrigido para 'slidesPerView'
+            slidesPerView: 2
         },
 
         1024: {
-            slidesPerView: 4  // Corrigido para 'slidesPerView'
+            slidesPerView: 4
         },
     }
 });
