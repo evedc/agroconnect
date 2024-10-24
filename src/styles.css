@@ -430,13 +430,28 @@ p {
 }
 
 .news-box {
-
     width: 460px;
     height: 500px;
     background-color: #ffffff23;
-    border-radius: 20px;
     overflow: hidden;
 }
+
+.data {
+    width: 120px;
+    border-radius: 0 0 10px 0;
+    background-color: #F7C35F;
+    position: absolute;
+    justify-content: center;
+}
+
+.data h2 {
+    display: flex;
+    font-size: 15px;
+    font-family: "Livvic", serif;
+    font-weight: 500;
+    justify-content: center;
+}
+
 
 .img-container {
     width: 100%;
