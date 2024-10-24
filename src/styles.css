@@ -528,6 +528,7 @@ p {
     margin-bottom: 5%;
 }
 
+
 .projects-container {
     background-color: #334B35;
     background-image: url(./images/back3.png);
@@ -573,9 +574,15 @@ p {
 }
 
 .card-image {
-    width: 100%;
+    width: auto;
     object-fit: contain;
+    border: 1px solid red;
 
+}
+
+.swiper {
+    width: 90%;
+    height: 300px;
 }
 
 .card-list .card-link {
@@ -588,4 +595,5 @@ p {
 .card-list .card-link .badge {
     color: #F7C35F;
     background-color: #6D8C54;
+    width: fit-content;
 }
