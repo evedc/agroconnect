@@ -718,13 +718,11 @@ p {
     display: flex;
     flex-direction: column;
     width: 40%;
-    border: 1px solid red;
 }
 
 .formulario-box {
     display: flex;
     width: 40%;
-    border: 1px solid red;
 }
 
 .dados-ct {
@@ -747,4 +745,59 @@ p {
     color: #ffffff;
     font-family: "Livvic", serif;
     font-weight: 200;
+}
+
+#formulario {
+    border: none;
+
+}
+
+fieldset {
+    border: none;
+}
+
+.campo_nome,
+.campo_phone,
+.campo_email,
+.msg {
+    text-align: center;
+    color: #000000;
+    background-color: #6d8c5440;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+
+}
+
+.campo_nome::placeholder,
+.campo_phone::placeholder,
+.campo_email::placeholder,
+.msg::placeholder {
+    color: #ffffff71;
+    opacity: 1;
+
+}
+
+.campo_nome:focus,
+.campo_phone:focus,
+.campo_email:focus,
+.msg:focus {
+    outline: none;
+    border-color: #4CAF50;
+
+}
+
+.btn_submit {
+    width: 150px;
+    height: 60px;
+    background-color: #F7C35F;
+    border: none;
+    border-radius: 12px;
+}
+
+textarea {
+    resize: none;
 }
