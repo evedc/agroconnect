@@ -193,9 +193,7 @@ p {
     display: flex;
     justify-content: center;
     z-index: 4;
-    /* Certifique-se que a imagem tenha um z-index maior */
     position: relative;
-    /* Necessário para respeitar o z-index */
 }
 
 .check-box h3 {
@@ -766,10 +764,14 @@ fieldset {
     border: none;
     padding: 10px;
     margin-bottom: 10px;
-    width: 100%;
-    height: 60px;
+    width: 680px;
+    height: 80px;
     border-radius: 10px;
 
+}
+
+.msg {
+    height: 250px;
 }
 
 .campo_nome::placeholder,
@@ -791,7 +793,6 @@ textarea {
 .msg:focus {
     outline: none;
     border-color: #4CAF50;
-
 }
 
 .btn_submit {
@@ -805,4 +806,220 @@ textarea {
 .btn_submit:hover {
     cursor: pointer;
     font-weight: bold;
+}
+
+.banner-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #d1c164;
+    background-image: url(./images/bg3.png);
+}
+
+.icone-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+    width: 60%;
+    margin-bottom: 2%;
+}
+
+.icone-box h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: #334B35;
+    font-family: "Delius Swash Caps", cursive;
+    margin-left: 2%;
+}
+
+.btc-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+}
+
+.redes-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: #334B35;
+}
+
+.redes-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.footer1 {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.footer1 h2 {
+    color: #ffffff;
+    font-size: 50px;
+    font-family: "Playwrite GB S", cursive;
+    font-weight: 300;
+}
+
+.footer1 p {
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 2%;
+    font-family: "Livvic", serif;
+    font-weight: 300;
+}
+
+.footer1 hr {
+    margin-top: 3%;
+    width: 90%;
+    border: 1px solid #ffffff;
+}
+
+.icons-rs {
+    margin-top: 2%;
+}
+
+.footer2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+    color: #ffffff;
+}
+
+.footer2 h2 {
+    color: #ffffff;
+    font-size: 22px;
+    font-family: "Livvic", serif;
+    font-weight: 400;
+    margin-bottom: 4%;
+}
+
+.footer2 ul {
+
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 200;
+}
+
+a:hover {
+    color: #F7C35F;
+}
+
+.footer3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 20%;
+    color: #ffffff;
+}
+
+.footer3 h2 {
+    color: #ffffff;
+    font-size: 22px;
+    font-family: "Livvic", serif;
+    font-weight: 400;
+    margin-bottom: 4%;
+}
+
+.footer3 p {
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 2%;
+    font-family: "Livvic", serif;
+    font-weight: 300;
+}
+
+
+.input-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.footer3 input {
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    background-color: #6d8c5461;
+    padding-left: 20px;
+    padding-right: 60px;
+    color: #ffffff;
+    font-family: "Livvic", serif;
+    font-weight: 200;
+}
+
+input::placeholder {
+    color: #ffffff;
+    opacity: 0.8;
+    font-weight: 200;
+}
+
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.input-container button {
+    position: absolute;
+    right: 10px;
+    height: 40px;
+    padding: 0 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #F7B500;
+    color: #000000;
+    font-family: "Livvic", serif;
+    cursor: pointer;
+}
+
+.input-container button:hover {
+    background-color: #e6a700;
+}
+
+footer {
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #334B35;
+}
+
+.footer-box {
+    display: flex;
+    width: 100%;
+    margin-top: 3%;
+}
+
+.direita-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    font: 50px;
+    font-weight: 300;
+    color: #ffffff;
+    margin-top: 3%;
 }
