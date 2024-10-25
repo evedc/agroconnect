@@ -781,6 +781,10 @@ fieldset {
 
 }
 
+textarea {
+    resize: none;
+}
+
 .campo_nome:focus,
 .campo_phone:focus,
 .campo_email:focus,
@@ -791,13 +795,14 @@ fieldset {
 }
 
 .btn_submit {
-    width: 150px;
+    width: 180px;
     height: 60px;
     background-color: #F7C35F;
     border: none;
     border-radius: 12px;
 }
 
-textarea {
-    resize: none;
+.btn_submit:hover {
+    cursor: pointer;
+    font-weight: bold;
 }
