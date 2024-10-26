@@ -1,0 +1,89 @@
+@media (max-width: 480px) {
+
+    nav {
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+        position: fixed;
+        background-color: #334B35;
+        width: 100vw;
+        height: 70px;
+        z-index: 2;
+    }
+
+    .container-header {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        left: 5%;
+        top: auto;
+
+    }
+
+    .about {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        background-color: #334B35;
+    }
+
+    .box-info {
+        width: 100%;
+        margin-left: 5%;
+        margin-top: 5%;
+        z-index: 1;
+    }
+
+    .foods {
+
+        display: flex;
+        width: 100%;
+
+        justify-content: center;
+        align-content: center;
+        background-color: #334B35;
+        flex-direction: column;
+    }
+
+    .food-container {
+        display: grid;
+        flex-wrap: nowrap;
+        width: 80%;
+        grid-template-columns: repeat(2, 3fr);
+        gap: 20px;
+        justify-content: center;
+        align-content: center;
+        margin: 40px auto;
+        color: #ffffff;
+    }
+
+    .video-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        background-image: url(./images/bg2.jpg);
+        background-position: 0%;
+        background-size: cover;
+    }
+
+    .text-box {
+        display: flex;
+        font-size: 30px;
+        text-align: center;
+        font-family: "Livvic", sans-serif;
+        font-weight: 600;
+        color: #ffffff;
+        width: 60%;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}
