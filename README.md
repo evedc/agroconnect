@@ -5,11 +5,12 @@ O AgroConnect é uma plataforma digital projetada para conectar produtores, comp
 # 🛠️ Tecnologias Utilizadas
 - Frontend: HTML, CSS e JavaScript
 
-#🚀 Como Executar o Projeto
+# 🚀 Como Executar o Projeto
 
 - Clone o repositório:
-git clone https://github.com/evedc/agroconnect.git
-cd agroconnect
+  git clone
+  https://github.com/evedc/agroconnect.git
+  cd agroconnect
 
 - Instale as dependências:
 bash
